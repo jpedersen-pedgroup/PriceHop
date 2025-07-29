@@ -8,7 +8,7 @@ public class RetailController : Controller
     {
         _apiService = apiService;
     }
-
+        
     public async Task<IActionResult> Stores(string brand)
     {
         string data = await _apiService.GetRetailerDataAsync(brand, "Stores");

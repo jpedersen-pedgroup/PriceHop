@@ -47,11 +47,11 @@ public partial class PriceHopDbContext : DbContext
 
     public virtual DbSet<PNS_StagingProductsRaw> StagingProductsRaws1 { get; set; }
 
-    public virtual DbSet<NW_Store> Stores { get; set; }
+    public virtual DbSet<NW_Store> NWStores { get; set; }
 
-    public virtual DbSet<PNS_Store> Stores1 { get; set; }
+    public virtual DbSet<PNS_Store> PNSStores { get; set; }
 
-    public virtual DbSet<WW_Store> Stores2 { get; set; }
+    public virtual DbSet<WW_Store> WWStores { get; set; }
 
     public virtual DbSet<NW_VariableWeight> VariableWeights { get; set; }
 
